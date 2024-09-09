@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Cliente - PetShop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style-clientes.css">
+</head>
+<body>
+
+  <!-- Container de Cadastro -->
+  <div class="cadastro-container">
+    <h2>Cadastro de Cliente</h2>
+    
+    <!-- Logo -->
+    <div class="logo">
+        <img src="img/cliente.webp" class="card-img-top" alt="logo da empresa">
+    </div>
+
+    <!-- Formulário de Cadastro -->
+    <form>
+      <input type="text" class="form-control" placeholder="Nome completo" required>
+      <input type="text" class="form-control" placeholder="CPF" required>
+      <input type="text" class="form-control" placeholder="Login" required>
+      <input type="password" class="form-control" placeholder="Senha" required>
+      <input type="tel" class="form-control" placeholder="Telefone" required>
+
+      <!-- Botões -->
+      <button type="submit" class="btn btn-danger">Cadastrar</button>
+      <button type="button" class="btn btn-secondary">Voltar</button>
+    </form>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center text-lg-start mt-5">
+    <div class="container p-4">
+      <div class="row">
+        <!-- Sobre o PetShop -->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Sobre o PetShop</h5>
+          <p>
+            O PetShop oferece os melhores produtos e serviços para o seu pet. Contamos com uma equipe dedicada e experiente para garantir a saúde e bem-estar dos seus animais.
+          </p>
+        </div>
+
+        <!-- Contatos e Redes Sociais -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Contato</h5>
+          <ul class="list-unstyled mb-0">
+            <li><strong>Endereço:</strong> Rua dos Pets, 123, Centro</li>
+            <li><strong>Telefone:</strong> (11) 1234-5678</li>
+            <li><strong>Email:</strong> contato@petshop.com</li>
+          </ul>
+        </div>
+
+        <!-- Links Sociais -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Siga-nos</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#" class="text-white">Facebook</a></li>
+            <li><a href="#" class="text-white">Instagram</a></li>
+            <li><a href="#" class="text-white">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3 bg-black text-white">
+      © 2024 PetShop. Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
