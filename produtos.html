@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetShop - Produtos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style-produtos.css">
+</head>
+  <!-- Navbar (cabeçalho) -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">PetShop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Produtos</a>
+          </li>
+        </ul>
+      </div>
+      <a href="login.html" class="btn btn-danger">Acessar o sistema</a>
+    </div>
+  </nav>
+
+  <!-- Conteúdo principal - Carrossel de Produtos -->
+  <div class="container mt-4">
+    <h2 class="text-center text-black">Conheça nossos Produtos</h2>
+    <br>
+    <div id="produtosCarrossel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Imagem 1 -->
+        <div class="carousel-item active">
+          <img src="img/1.avif" class="d-block w-100" alt="Ração para Cães">
+          <div class="carousel-caption d-none d-md-block text-box">
+            <h5>Ração Premium para Cães</h5>
+            <p>Alimentação balanceada e nutritiva para cães de todas as idades. Preço: R$ 89,90</p>
+          </div>
+        </div>
+        <!-- Imagem 2 -->
+        <div class="carousel-item">
+          <img src="img/2.png" class="d-block w-100" alt="Arranhador para Gatos">
+          <div class="carousel-caption d-none d-md-block text-box">
+            <h5>Arranhador para Gatos</h5>
+            <p>Arranhador de 3 níveis para estimular os gatos a se exercitarem. Preço: R$ 149,90</p>
+          </div>
+        </div>
+        <!-- Imagem 3 -->
+        <div class="carousel-item">
+          <img src="img/3.webp" class="d-block w-100" alt="Shampoo Pet">
+          <div class="carousel-caption d-none d-md-block text-box">
+            <h5>Shampoo Neutro para Pets</h5>
+            <p>Shampoo neutro para cães e gatos, ideal para peles sensíveis. Preço: R$ 29,90</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controles do Carrossel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#produtosCarrossel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#produtosCarrossel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center text-lg-start mt-5">
+    <div class="container p-4">
+      <div class="row">
+        <!-- Sobre o PetShop -->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Sobre o PetShop</h5>
+          <p>
+            O PetShop oferece os melhores produtos e serviços para o seu pet. Contamos com uma equipe dedicada e experiente para garantir a saúde e bem-estar dos seus animais.
+          </p>
+        </div>
+  
+        <!-- Contatos e Redes Sociais -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Contato</h5>
+          <ul class="list-unstyled mb-0">
+            <li><strong>Endereço:</strong> Rua dos Pets, 123, Centro</li>
+            <li><strong>Telefone:</strong> (11) 1234-5678</li>
+            <li><strong>Email:</strong> contato@petshop.com</li>
+          </ul>
+        </div>
+  
+        <!-- Links Sociais -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Siga-nos</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="#" class="text-white">Facebook</a></li>
+            <li><a href="#" class="text-white">Instagram</a></li>
+            <li><a href="#" class="text-white">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Copyright -->
+    <div class="text-center p-3 bg-black text-white">
+      © 2024 PetShop. Todos os direitos reservados.
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

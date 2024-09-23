@@ -33,4 +33,8 @@ body {
     color: #666;
   }
   
-  
+.contador {
+    font-size: 36px; /* Aumenta o tamanho do contador */
+    color: #d9534f; /* Cor do texto do contador */
+    margin-left: 10px; /* Espaçamento entre o texto e o contador */
+}
